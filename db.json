@@ -1,8 +1,8 @@
 {
   "products": [
     {
-      "title": "jeruk bali1",
-      "price": "12121",
+      "title": "jeruk bali",
+      "price": "15000",
       "id": 1
     },
     {
@@ -26,8 +26,8 @@
       "id": 5
     },
     {
-      "title": "sasa",
-      "price": "132123",
+      "title": "minyak makan",
+      "price": "32000",
       "id": 6
     }
   ]

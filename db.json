@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "title": "Product 1 updated",
+      "price": 800,
+      "id": 1
+    },
+    {
+      "title": "jeruk",
+      "price": "40000",
+      "id": 2
+    },
+    {
+      "title": "nanas",
+      "price": "8000",
+      "id": 3
+    },
+    {
+      "title": "pisang raja",
+      "price": "40000",
+      "id": 4
+    },
+    {
+      "title": "dispenser",
+      "price": "50000",
+      "id": 5
+    },
+    {
+      "title": "sasa",
+      "price": "132123",
+      "id": 6
+    }
+  ]
+}

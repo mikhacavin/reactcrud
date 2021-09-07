@@ -8,7 +8,7 @@ const AddProduct = () => {
   const saveProduct = async (e) => {
     e.preventDefault();
     const product = { title, price };
-    await fetch("https://api.jsonbin.io/b/61306cac3dc0634121a822c8", {
+    await fetch("http://localhost:8000/products", {
       method: "POST",
       body: JSON.stringify(product),
       headers: {

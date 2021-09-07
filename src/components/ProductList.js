@@ -8,20 +8,20 @@ const ProductList = () => {
     fectData();
   }, []);
 
-  // const fectData = async () => {
-  //   const response = await fetch("http://localhost:8000/products");
-  //   const data = await response.json();
-  //   setProducts(data);
-  //   console.log(data);
-  // };
-
   const fectData = async () => {
-    const response = await fetch(
-      "https://api.jsonbin.io/b/61306cac3dc0634121a822c8"
-    );
+    const response = await fetch("http://localhost:8000/products");
     const data = await response.json();
     setProducts(data);
+    console.log(data);
   };
+
+  // const fectData = async () => {
+  //   const response = await fetch(
+  //     "https://api.jsonbin.io/b/61306cac3dc0634121a822c8"
+  //   );
+  //   const data = await response.json();
+  //   setProducts(data);
+  // };
 
   const deleteProduct = async (id) => {
     await fetch(`http://localhost:8000/products/${id}`, {

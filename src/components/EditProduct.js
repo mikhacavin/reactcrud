@@ -12,9 +12,7 @@ const EditProduct = () => {
   }, []);
 
   const getProductById = async () => {
-    const response = await fetch(
-      `https://api.jsonbin.io/b/61306cac3dc0634121a822c8/${id}`
-    );
+    const response = await fetch(`http://localhost:8000/products/${id}`);
     const data = await response.json();
     setTitle(data.title);
     setPrice(data.price);
